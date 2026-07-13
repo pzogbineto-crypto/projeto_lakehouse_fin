@@ -1,0 +1,16 @@
+services:
+  spark-iceberg:
+    image: apache/spark:3.5.0
+    container_name: spark-master-iceberg
+    user: root
+    environment:
+      - SPARK_MODE=master
+      - GOOGLE_APPLICATION_CREDENTIALS=/opt/spark/gcp-key.json
+    volumes:
+      - ./finance-lakehouse-pipeline:/opt/spark/notebooks
+      - ./gcp-key.json:/opt/spark/gcp-key.json
+    ports:
+      - "8080:8080"
+      - "7077:7077"
+      - "4040:4040"
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master

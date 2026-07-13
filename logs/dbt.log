@@ -1,0 +1,29 @@
+[0m09:34:24.520527 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201BC44F6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201BC446590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201BC4474D0>]}
+
+
+============================== 09:34:24.526333 | 7ed222c4-c652-4d5a-84c9-bb0ebe96856e ==============================
+[0m09:34:24.526333 [info ] [MainThread]: Running with dbt=1.11.12
+[0m09:34:24.531372 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\pzogb\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init finance_transform', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m09:34:24.572504 [debug] [MainThread]: Starter project path: C:\Users\pzogb\OneDrive\Documentos\Projetos Pessoais - Profissionais\enterprise_lakehouse\venv\Lib\site-packages\dbt\include\starter_project
+[0m09:34:24.592433 [info ] [MainThread]: 
+Your new dbt project "finance_transform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:34:24.592433 [info ] [MainThread]: Setting up your profile.
+[0m09:37:19.188318 [info ] [MainThread]: Profile finance_transform written to C:\Users\pzogb\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:37:19.207003 [debug] [MainThread]: Command `dbt init` succeeded at 09:37:19.205427 after 174.82 seconds
+[0m09:37:19.210188 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201BB1DB990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201B49EF510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201BB3D0790>]}
+[0m09:37:19.216109 [debug] [MainThread]: Flushing usage events
+[0m09:37:20.746988 [debug] [MainThread]: An error was encountered while trying to flush usage events

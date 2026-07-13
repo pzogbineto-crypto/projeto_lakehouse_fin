@@ -1,0 +1,19 @@
+# Ambientes Virtuais (Python)
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Credenciais e Segredos (CRÍTICO)
+*.json
+.env
+.env.*
+secrets/
+credentials/
+
+# Apache Airflow Local
+airflow_local/logs/
+airflow_local/airflow.db
+airflow_local/airflow.cfg
+airflow_local/webserver_config.py

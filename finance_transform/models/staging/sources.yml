@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: lakehouse
+    database: enterprise-finance-lakehouse # Ex: enterprise-finance-lakehouse-12345
+    schema: finance_db # O nome do banco que o Iceberg criou
+    tables:
+      - name: transactions_raw
+        description: "Tabela Bronze do Iceberg contendo transações financeiras brutas do Pub/Sub."
