@@ -15,6 +15,8 @@ Em grandes instituições financeiras, a latência e a inconsistência dos dados
 Como prova de conceito da resiliência do ecossistema e desacoplamento da arquitetura, simula-se um cenário real de desastre: **o motor de processamento ficou indisponível entre os dias 07/07/2026 e 12/07/2026**. Graças à camada de mensageria assíncrona, nenhum dado foi perdido e um processo de **Backfill** retroativo foi executado com sucesso para repovoar o histórico e reprocessar as métricas sem impactar o relatório final.
 
 ---
+<img width="1290" height="907" alt="image" src="https://github.com/user-attachments/assets/a68251c5-fa76-4ec1-8331-ee02bbcff7a9" />
+<img width="1225" height="812" alt="image" src="https://github.com/user-attachments/assets/e1b3ea60-b694-46cc-b6ed-7c068f288d06" />
 
 ## 🏗️ 2. Arquitetura da Solução
 
