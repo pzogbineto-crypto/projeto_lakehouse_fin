@@ -41,6 +41,7 @@ graph LR
     subgraph Orquestração Control Plane
         I[Apache Airflow Docker] -.->|Triggers Daily| G
     end
+```
 
 ## 🧠 3. Escolhas Tecnológicas & Justificativas Técnicas
 
